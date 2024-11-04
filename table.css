@@ -1,0 +1,19 @@
+.header {
+    border: 5px;
+    border-style: groove;
+    display: flex;
+    justify-content: right;
+}
+
+a {
+    margin: 5px;
+}
+
+thead {
+    text-align: left;
+    background-color: gray;
+}
+
+tbody {
+    background-color: yellowgreen;
+}
