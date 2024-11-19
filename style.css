@@ -40,13 +40,23 @@ h1 {
     display: flex;
     justify-content: space-around;
 }
-
-.card-img-top {
-    height: 400px;
+.card {
+    min-height: 750px;
+    max-height: 750px;
 }
-
-.card-text {
-    height: 100px;
+.card-img-top {
+    min-height: 450px;
+    padding: 1%;
+}
+#Films {
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: auto;
+}
+.row {
+    --bs-gutter-x: 0rem !important;
 }
 
 .list-group {
@@ -58,4 +68,28 @@ h1 {
 .list-group-item{
     margin: 0%;
 }
+.GoslingPhoto {
+    max-height: 500px;
+    padding-top: 5%;
+}
 
+#InfoP {
+    padding: 10%;
+}
+@media(max-width: 1500px){
+    .col-3 {
+        width: 33% !important;
+    }
+    #FavFood {
+        visibility: hidden;
+    }
+}
+
+@media(max-width: 1080px){
+    .col-3 {
+        width: 50% !important;
+    }
+    #FavFood {
+        visibility: hidden;
+    }
+}

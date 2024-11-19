@@ -1,33 +1,236 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Лабораторнst 6-7 ЦК</title>
-    <link href="style.css" rel="stylesheet" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="https://en.wikipedia.org/wiki/Ryan_Gosling"><em>Rayan Gosling</em></a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html">Главная</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="films.html">Фильмы</a>
-        </li>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Лабораторнst 6-7 ЦК</title>
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://en.wikipedia.org/wiki/Ryan_Gosling"><em>Rayan Gosling</em></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="films.html">Фильмы</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  <div class="row">
+
+    <div class="col" id="InfoP">
+      <h2>
+        Райан Гослинг
+      </h2>
+      <p>
+        Родился 12.11.1980 в Лондоне(не британском) в штате Онтарио, Канада.
+        Сейчас актёру 44 года, свою карьеру актёра Райан начал в 13 лет, играя роли в семейных развлекательных сериалах.
+        В первом фильме Го́слинг принял участие в 19 лет, а всего за свою жизнь актёр пока что успел сняться в 48
+        фильмах.
+        Райан Гослинг снимается в фильмах совершенно разных жанров: драмах, комедиях, боевиках, триллерах
+      </p>
+    </div>
+    <div class="col">
+      <img src="images/Gosling.jpg" alt="..." class="GoslingPhoto">
     </div>
   </div>
-</nav>
-<div class="alert alert-primary" role="alert">
-  Эта страница ещё находится в разработке!
+  <h2 id="Films">Фильмы</h2>
+  <div class="row">
+    <div class="col-3">
+      <div class="card">
+        <img src="images/BRPoster.jpg" class="card-img-top" alt="BRPoster">
+        <div class="card-body">
+          <h5 class="card-title">Бегущий по лезвию 2049</h5>
+          <p class="card-text">Райан Гослинг жил-поживал и грустил, а потом узнал что не надо было в 2049 году
+          </p>
+          <a href="https://www.kinopoisk.ru/film/589290/" class="KinoHref">Подробнее</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+<div class="card">
+  <img src="images/BarbiePoster.jpg" class="card-img-top" alt="barbposter">
+  <div class="card-body">
+    <h5 class="card-title">Барби</h5>
+    <p class="card-text">Самый сексуальный мужик в мире покинул прекрасную страну из-за женщины
+    </p>
+    <a href="https://www.kinopoisk.ru/film/478052/" class="KinoHref">Подробнее</a>
+  </div>
 </div>
-  </body>
+    </div>
+    <div class="col-3">
+<div class="card">
+  <img src="images/drivePoster.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Драйв</h5>
+    <p class="card-text">Бедолага Гослинг в легендарной куртке с золотым скорпионом борется за свою любовь и
+      умирает в конце(а может и нет)
+    </p>
+    <a href="https://www.kinopoisk.ru/film/276598/" class="KinoHref">Подробнее</a>
+  </div>
+</div>
+    </div>
+    <div class="col-3">
+<div class="card">
+  <img src="images/BraveGuys.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Славные парни (2016)</h5>
+    <p class="card-text">Бандит и детектив расследуют смерть порнозвезды в Лос-Анджелесе 1970-х. Феерически смешная экшен-комедия
+    </p>
+    <a href="https://www.kinopoisk.ru/film/841152/" class="KinoHref">Подробнее</a>
+  </div>
+</div>
+    </div>
+    <div class="col-3">
+<div class="card">
+  <img src="images/lalend.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Ла-Ла Ленд (2016)</h5>
+    <p class="card-text">Миа и Себастьян выбирают между личным счастьем и амбициями. Трагикомичный мюзикл о компромиссе в жизни артиста
+    </p>
+    <a href="https://www.kinopoisk.ru/film/841081/" class="KinoHref">Подробнее</a>
+  </div>
+</div>
+    </div>
+    <div class="col-3">
+<div class="card">
+  <img src="images/Place.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Место под соснами (2012)</h5>
+    <p class="card-text">"Место под соснами" - это история человека, ведомого отцовскими инстинктами и желанием прокормить семью, идет на
+    преступление. Преступление во имя добра.
+    </p>
+    <a href="https://www.kinopoisk.ru/film/577673/" class="KinoHref">Подробнее</a>
+  </div>
+</div>
+    </div>
+    <div class="col-3">
+<div class="card">
+  <img src="images/lars_and_the_real_girl.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Ларс и настоящая девушка (2007)</h5>
+    <p class="card-text">Любовь нечаянно нагрянет… Как у Ларса - очень стеснительного молодого человека, проживающего в маленьком городке на
+    севере Америки, который думает, что обрел любовь всей своей жизни.
+    </p>
+    <a href="https://www.kinopoisk.ru/film/256497/" class="KinoHref">Подробнее</a>
+  </div>
+</div>
+    </div>
+    <div class="col-3">
+<div class="card">
+  <img src="images/GrayMen.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Серый человек (2022)</h5>
+    <p class="card-text">В 2003 году ЦРУ вербует отбывающего срок за убийство Курта Джентри, и тот становится так называемым серым человеком —
+    спецагентом под кодовым именем Сьерра Шесть. 18 лет спустя...
+    </p>
+    <a href="https://www.kinopoisk.ru/film/558393/" class="KinoHref">Подробнее</a>
+  </div>
+</div>
+    </div>
+  </div>
+</body>
+<h2>Ещё немного о Райане Гослинге</h2>
+<p>
+  Райан Гослинг получил «Оскар» за следующие фильмы:
+  
+  2007 год — лучшая мужская роль в фильме «Полу-Нельсон»;
+  2017 год — лучшая мужская роль в фильме «Ла-Ла Ленд».
+  
+  Интересный факт о Райане Гослинге: он любит проводить время в одиночестве в Диснейленде, одержим персонажами сказочной
+  вселенной и каждый раз, приходя в парк развлечений, надевает наушники и катается на аттракционах.
+</p>
+<p id="FavFood">
+  Любимое блюдо Райана Гослинга — пицца. Он предпочитает пиццу с сложными начинками: в одном
+  уголке — сладкий ананас, в другом — острый перец чили, а посередине — сосиски с кусочками глютена.
+</p>
+<h2>Фильмография</h2>
+<div class="row">
+  <div class="col-1"></div>
+  <div class="col-10">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Год</th>
+          <th scope="col">Русское Название</th>
+          <th scope="col">Оригинальное название</th>
+          <th scope="col">Роль</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>2007</td>
+          <td>Ларс и его реальная девушка</td>
+          <td>Lars and the Real Girl</td>
+          <td>Ларс Линдстром</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>2011</td>
+          <td>Драйв</td>
+          <td>Drive</td>
+          <td>Безымянный водитель</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>2012</td>
+          <td>Место под соснами</td>
+          <td>The Place Beyond the Pines</td>
+          <td>Люк Глентон</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>2016</td>
+          <td>Славные парни</td>
+          <td>The Nice Guys</td>
+          <td>Холланда Марча</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>2016</td>
+          <td>Ла ла ленд</td>
+          <td>La La Land</td>
+          <td>Себастьян Уайлдер</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>2017</td>
+          <td>Бегущий по лезвию 2049</td>
+          <td>Blade Runner 2049</td>
+          <td>Кей</td>
+        </tr>
+        
+        <tr>
+          <th scope="row">7</th>
+          <td>2022</td>
+          <td>Серый человек</td>
+          <td>The Gray Man</td>
+          <td>Сierra Six</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>2023</td>
+          <td>Барби</td>
+          <td>Barbie</td>
+          <td>Кен</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
 </html>
